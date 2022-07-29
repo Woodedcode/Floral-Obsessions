@@ -1,0 +1,188 @@
+ Box Model Hack
+* {
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Neuton', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
+    padding: 0;
+    /* background-color: #F7B5C7 */
+  }
+/* Clear fix hack */
+    .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+} 
+
+Extra small devices (portrait phones, less than 576px)
+ @media (max-width: 575.98px) { ... } */
+
+ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+ Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+@media screen and (min-width: 100px) and (max-width: 900px) {
+    body {
+        
+    }
+  } 
+
+/*               LAYOUT                 */
+/*//////////////////////////////////////*/
+
+   /* Box Model Hack */
+   * {
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Neuton', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 0;
+    padding: 0;
+    /* background-color: #F7B5C7; */
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+
+/*Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+ Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+/*-------------------------------layout-------------------------------*/
+/*--------------------------------------------------------------------*/
+@media screen and (min-width: 100px) and (max-width: 900px) {
+    body {
+        
+    }
+  }
+div {
+    text-align: center;
+  }
+  /*PRACTICE*/
+
+/*---------------------------- DO NOT CHANGE --------------------------*/
+/*--------------------------------------------------------------------*/
+body{
+    background-color: #F7B5C7;
+    font-family: sans-serif;
+}
+/* .container{
+    max-width: 1600px;
+    padding: 50px 20px;
+    margin: 0 auto;
+}
+.galleryImg{
+    max-width: 100%;
+    border: 10px;
+    position: relative;
+} */
+@import url(
+'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yaldevi', sans-serif;
+}
+   
+h1 {
+    color: green;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;
+}
+   
+h6 {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+   
+.myProducts-gallery img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .5;
+}
+   
+.myProducts-gallery img:hover {
+    opacity: 1;
+}
+   
+.myProducts-gallery {
+    float: left;
+}
+   
+.myProducts {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+}
+   
+.image-container img {
+    height: 400px;
+    transition: transform 1s;
+}
+   
+.image-container img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+   
+.image-container {
+    float: right;
+    padding: 10px;
+}
+/*--------------------------------------------------------------------*/
+/*--------------------------------------------------------------------*/
+
