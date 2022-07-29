@@ -1,0 +1,25 @@
+const gallery = document.getElementById('gallery');
+const popup = document.getElementById('popup');
+const selectedImage = document.getElementById('selectedImage');
+const imageIndexes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const selectedIndex = null;
+
+imageIndexes.forEach(i => {
+    const image = document.createElement('img');
+    image.src = '../floralObssesions/bouquetBuilds/1/"".jpg';
+    image.src = '../floralObssesions/bouquetBuilds/2/"".jpg';
+    image.src = '../floralObssesions/bouquetBuilds/3/"".jpg';
+    image.src = '../floralObssesions/bouquetBuilds/4/"".jpg';
+    image.src = '../floralObssesions/bouquetBuilds/5/"".jpg';
+    image.src = '../floralObssesions/bouquetBuilds/6/"".jpg';
+    image.src = '../floralObssesions/bouquetBuilds/7/"".jpg';
+    image.alt = 'Bouquet Bouild ';
+    image.classList.add('galleryImg')
+
+
+    image.addEventListener('click', () {
+        //popup stuff
+    })
+
+    gallery.appendChild(image);
+})
