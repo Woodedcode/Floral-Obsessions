@@ -1,30 +1,3 @@
- Box Model Hack
-* {
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Lora', serif;
-    font-family: 'Neuton', serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif; 
-    margin: 0;
-    padding: 0;
-    /* background-color: #F7B5C7 */
-  }
-/* Clear fix hack */
-    .clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0;
-}
-
-.clear {
-   clear: both;
-} 
-
 Extra small devices (portrait phones, less than 576px)
  @media (max-width: 575.98px) { ... } */
 
@@ -52,12 +25,6 @@ Extra small devices (portrait phones, less than 576px)
    /* Box Model Hack */
    * {
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Lora', serif;
-    font-family: 'Neuton', serif;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif; 
     margin: 0;
     padding: 0;
     /* background-color: #F7B5C7; */
@@ -99,90 +66,129 @@ Extra small devices (portrait phones, less than 576px)
         
     }
   }
-div {
-    text-align: center;
-  }
-  /*PRACTICE*/
-
-/*---------------------------- DO NOT CHANGE --------------------------*/
 /*--------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------*/
+/*font CAN CHANGE*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+/*dont change*/
+
 body{
     background-color: #F7B5C7;
-    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    color: white;
 }
-/* .container{
-    max-width: 1600px;
-    padding: 50px 20px;
-    margin: 0 auto;
+
+#slider{
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #be8796;
 }
-.galleryImg{
-    max-width: 100%;
-    border: 10px;
-    position: relative;
-} */
-@import url(
-'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
-  
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Yaldevi', sans-serif;
+
+.container{
+    width: 1600px;
+    margin: auto;
 }
-   
-h1 {
-    color: green;
-    font-size: 80px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 22px;
+
+.subcontainer{
+    width: 85%;
+    margin: auto;
 }
-   
-h6 {
-    color: green;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 60px;
-    margin-bottom: 20px;
+
+.controller{
+    display: flex;
+    justify-content: space-between;
 }
-   
-.myProducts-gallery img{
-    height: 92px;
-    margin: 10px 0;
+
+#controls i{
+    color: white;
+    font-size: 1rem;
+}
+
+.previous, .next{
+    padding: 2px;
+    width: 30px;
     cursor: pointer;
-    display: block;
-    opacity: .5;
+    border-radius: 50%;
+    outline: none;
+    transition: 0.7s ease-in-out;
+    border: 2px solid white;
+    background-color: black;
+    box-shadow: 0 0 5px #bbb;
 }
-   
-.myProducts-gallery img:hover {
+
+.previous:hover, .next:hover{
+    border: 2px solid grey;
+}
+
+.slide-img{
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.slide-img:hover{
+    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.4) inset;
+}
+
+.slide-img a{
+    text-decoration: none;
+    transform: scale(0);
+    transition: 0.8s;
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0;
+}
+
+.slide-img:hover a{
     opacity: 1;
+    transform: scale(1);
 }
-   
-.myProducts-gallery {
-    float: left;
+
+.img-1{
+    background-image: url(../floralObsessions/boquetBuilds/1/place1.JPG);
 }
-   
-.myProducts {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    position: absolute;
+
+.img-2{
+    background-image: url(../floralObsessions/boquetBuilds/2/child1.JPG);
 }
-   
-.image-container img {
-    height: 400px;
-    transition: transform 1s;
+
+.img-3{
+    background-image: url(../floralObsessions/boquetBuilds/3/family1.JPG);
 }
-   
-.image-container img:hover{
-    transform: scale(1.5);
-    cursor: zoom-in;
+.img-4{
+    background-image: url(../floralObsessions/boquetBuilds/4/pet1.JPG);
 }
-   
-.image-container {
-    float: right;
-    padding: 10px;
+.img-5{
+    background-image: url(../floralObsessions/boquetBuilds/5/fun1.JPG);
 }
+.img-6{
+    background-image: url(../floralObsessions/boquetBuilds/6/cocktail1.JPG);
+}
+.img-7{
+    background-image: url(../floralObsessions/boquetBuilds/7/celebrate1.JPG);
+}
+
+
+
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
+
 /*--------------------------------------------------------------------*/
+
 /*--------------------------------------------------------------------*/
+
 
