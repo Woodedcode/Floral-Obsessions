@@ -1,25 +1,26 @@
-const gallery = document.getElementById('gallery');
-const popup = document.getElementById('popup');
-const selectedImage = document.getElementById('selectedImage');
-const imageIndexes = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-const selectedIndex = null;
-
-imageIndexes.forEach(i => {
-    const image = document.createElement('img');
-    image.src = '../floralObssesions/bouquetBuilds/1/"".jpg';
-    image.src = '../floralObssesions/bouquetBuilds/2/"".jpg';
-    image.src = '../floralObssesions/bouquetBuilds/3/"".jpg';
-    image.src = '../floralObssesions/bouquetBuilds/4/"".jpg';
-    image.src = '../floralObssesions/bouquetBuilds/5/"".jpg';
-    image.src = '../floralObssesions/bouquetBuilds/6/"".jpg';
-    image.src = '../floralObssesions/bouquetBuilds/7/"".jpg';
-    image.alt = 'Bouquet Bouild ';
-    image.classList.add('galleryImg')
-
-
-    image.addEventListener('click', () {
-        //popup stuff
-    })
-
-    gallery.appendChild(image);
+let slider = tns({
+    container: ".my-slider",
+    "slideBy": 1,
+    "speed": 400,
+    "nav": false,
+    controlsContainer: "#controls",
+    prevButton: ".previous",
+    nextButton: ".next",
+    responsive: {
+        1600: {
+            items: 4,
+            gutter: 20
+        },
+        1024: {
+            items: 3,
+            gutter: 20
+        },
+        768: {
+            items: 2,
+            gutter: 20
+        },
+        480: {
+            items: 1,
+        }
+    }
 })
