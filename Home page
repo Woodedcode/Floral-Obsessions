@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floral Obsession</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <div>
+        <header>
+            <img src="https://i.ibb.co/gW2qJdt/cropped-logo.jpg" alt="Floral Obsessions logo" class="center">
+        </header>
+    </div>
+
+
+    <nav id="floralDirection">
+        <ul>
+            <li>
+                <a href="www.x.com/home">Home</a>
+            </li>
+            <li>
+                <a href="www.x.com/custom">Custom Bouqet</a>
+            </li>
+            <li>
+                <a href="../floralObsessions/boquetBuilds.html">Bouquet Builds</a>
+            </li>
+            <li>
+                <a href="www.x.com/testiM">Testimonials</a>
+            </li>
+            <li>
+                <a href=www.x/contact>Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="banner">
+        <img class="test">
+        <h1>Banner</h1>
+    </section>
+    <section class="why">
+        <img class="test">
+        <h3>Why Floral Obsssions</h3>
+    </section>
+    <section class="hook">
+        <img class="test">
+        <h3>Hook</h3>
+    </section>
+    <section class="video">
+        <img class="test" src="">
+        <video controls>
+            <source src="x.mp4" type="video/mp4">
+        </video>
+    </section>
+    <section class="story">
+        <h3>Story</h3>
+    </section>
+    <section class="testimonials">
+        <img class="test">
+        <h3>Client Testimonials</h3>
+    </section>
+    <section class="events">
+        <img class="test">
+        <h3>Events</h3>
+    </section>
+    <section class="arrangements">
+        <img class="test">
+        <h3>Arrangements</h3>
+    </section>
+    <section class="crowns">
+        <img class="test">
+        <h3>Crowns</h3>
+    </section>
+    <footer>
+        <h1></h1>
+        <a href="https://www.instagram.com/cocktailobsessions/">Cocktail Obsessions</a>
+    </footer>
+    <script src="" href="main.js"></script>
+</body>
+
+</html>
+
+<!--CODED BY WOODEDCODE-->
