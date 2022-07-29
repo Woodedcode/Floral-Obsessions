@@ -1,53 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--STYLE-->
+<title>Bouquet Builds</title>
+<link rel="stylesheet" type="text/css" href="../floralObsessions/bouquetBuilds.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+<link rel="" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+<script src="https://kit.fontawesome.com/4a8f82235c.js" crossorigin="anonymous"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--STYLE-->
-    <title>Bouquet Builds</title>
-    <link rel="stylesheet" type="text/css" href="bouquetBuilds.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
-
-
-    <!-- <div class="container">
-        <h1> Bouquet Builds</h1>
-        <div id="gallery"></div>
-    </div>
-    <div id="popup"></div>
-    <img src="" alt="" id="selectedImage"> -->
-
-    <h1>Bouquet Builds</h1>
-    <h6>Bouquets that I have previously</h6>
-
-    <div class="myProducts">
-        <div class="myProducts-gallery">
-            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211110154408/DSwithCPPWorkshopthumbnail.png"
-                alt="click here" onclick="myImageFunction(this)">
-            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211110154411/fullstacknodereactworkshopthumbnail.png"
-                alt="click here" onclick="myImageFunction(this)">
-            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211110154416/systemdesignworkshoplivethumbnail.png"
-                alt="click here" onclick="myImageFunction(this)">
-            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211110154413/getplacedseries1thumbnail.png"
-                alt="click here" onclick="myImageFunction(this)">
+    <section id="slider">
+        <div class="container">
+            <div class="subcontrainer">
+                <div class="slider-wrapper">
+                    <div class="controller">
+                        <div>
+                            <h2> Example Bouquet Builds</h2>
+                        </div>
+                        <div id="controls">
+                            <button class="previous"><i class="fas fa-hand-point-left"></i></button>
+                            <button class="next"><i class="fas fa-hand-point-right"></i></i></button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="my-slider">
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-1">
+                                    <a href="#">More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Boquet Build 1</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-2">
+                                    <a href="#">More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Boquet Build 2</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-3">
+                                    <a href="#">More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Boquet Build 3</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slide">
+                                <div class="slide-img img-4">
+                                    <a href="#">More</a>
+                                </div>
+                                <br>
+                                <div>
+                                    <h3>Boquet Build 4</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="image-container">
-            <img id="img-Box"
-                src="https://media.geeksforgeeks.org/wp-content/uploads/20211110154408/DSwithCPPWorkshopthumbnail.png"
-                alt="click here">
-        </div>
-    </div>
-
-    <script>
-        function myImageFunction(productSmallImg) {
-            var productFullImg = document.getElementById("img-Box");
-            productFullImg.src = productSmallImg.src;
-        }
+    </section>
+    <script src="../floralObsessions/boquetBuilds.js">
     </script>
 </body>
 
