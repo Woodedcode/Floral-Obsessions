@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--STYLE-->
-<title>Bouquet Builds</title>
-<link rel="stylesheet" type="text/css" href="../floralObsessions/bouquetBuilds.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
-<link rel="" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-<script src="https://kit.fontawesome.com/4a8f82235c.js" crossorigin="anonymous"></script>
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+    <!--CSS-->
+    <link rel="stylesheet" href="../floralObsessions/bouquetBuilds.css">
+    <title>Floral Obsessions Bouquet Builds</title>
 </head>
 
 <body>
-    <section id="slider">
+    <!-- <li>
+        <a href="../floralObsessions/index.html">Home</a>
+        <a href="../floralObsessions/X">Custom Bouquet</a>
+        <a href="../floralObsessions/X">Testimonials</a>
+        <a href="../floralObsessions/X">Contact</a>
+        <a href="../floralObsessions/X"></a>
+    </li>
+    <h1>Previous Bouquet builds</h1>
+    <div class="containerHolder">
         <div class="container">
-            <div class="subcontrainer">
-                <div class="slider-wrapper">
-                    <div class="controller">
-                        <div>
-                            <h2> Example Bouquet Builds</h2>
-                        </div>
-                        <div id="controls">
-                            <button class="previous"><i class="fas fa-hand-point-left"></i></button>
-                            <button class="next"><i class="fas fa-hand-point-right"></i></i></button>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="my-slider">
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-1">
-                                    <a href="#">More</a>
-                                </div>
-                                <br>
-                                <div>
-                                    <h3>Boquet Build 1</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-2">
-                                    <a href="#">More</a>
-                                </div>
-                                <br>
-                                <div>
-                                    <h3>Boquet Build 2</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-3">
-                                    <a href="#">More</a>
-                                </div>
-                                <br>
-                                <div>
-                                    <h3>Boquet Build 3</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="slide">
-                                <div class="slide-img img-4">
-                                    <a href="#">More</a>
-                                </div>
-                                <br>
-                                <div>
-                                    <h3>Boquet Build 4</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <a href="../floralObsessions/index.html"><img src="../floralObsessions/bouquetBuilds/1/place1.JPG"></a>
+            <a href=""><img src="../floralObsessions/bouquetBuilds/2/child1.JPG"></a>
+            <a href=""><img src="../floralObsessions/bouquetBuilds/3/family1.JPG"></a>
+            <a href=""><img src="../floralObsessions/bouquetBuilds/4/pet1.JPG"></a>
+            <a href=""><img src="../floralObsessions/bouquetBuilds/5/fun1.JPG"></a>
+            <a href=""><img src="../floralObsessions/bouquetBuilds/6/cocktail1.JPG"></a>
+            <a href=""><img src="../floralObsessions/bouquetBuilds/7/celebrate1.JPG"></a>
         </div>
-    </section>
-    <script src="../floralObsessions/boquetBuilds.js">
-    </script>
+    </div> -->
+
+    <img>
+    <nav></nav>
+    <a href="../floralObsessions/index.html">Home</a>
+    <a href="../floralObsessions/X">Custom Bouquet</a>
+    <a href="../floralObsessions/X">Testimonials</a>
+    <a href="../floralObsessions/X">Contact</a>
+    <a href="../floralObsessions/X"></a>
+    </nav>
+    <div class="container">
+        <div class="top">
+            <ul>
+                <li><a href="#img_1"><img src="../floralObsessions/bouquetBuilds/1/place1.JPG"></a>
+                </li>
+                <li><a href="#img_2"><img src="../floralObsessions/bouquetBuilds/2/child1.JPG"></a></li>
+                <li><a href="#img_3"><img src="../floralObsessions/bouquetBuilds/3/family1.JPG"></a>
+                </li>
+                <li><a href="#img_4"><img src="../floralObsessions/bouquetBuilds/4/pet1.JPG"></a></li>
+                <li><a href="#img_5"><img src="../floralObsessions/bouquetBuilds/5/fun1.JPG"></a></li>
+                <li><a href="#img_6"><img src="../floralObsessions/bouquetBuilds/6/cocktail1.JPG"></a></li>
+                <li><a href="#img_7"><img src="../floralObsessions/bouquetBuilds/7/celebrate1.JPG"></a>
+                </li>
+                <li><a href="#img_8"><img src="x"></a>
+                </li>
+                <li><a href="#img_9"><img src="x"></a></li>
+                <li><a href="#img_10"><img src="x"></a></li>
+                <li><a href="#img_11"><img src="x"></a></li>
+                <li><a href="#img_12"><img src="x"></a></li>
+                <li><a href="#img_13"><img src="x"></a></li>
+                <li><a href="#img_14"><img src="x"></a>
+                </li>
+                <li><a href="#img_15"><img src="x"></a></li>
+                <li><a href="#img_16"><img src="x"></a></li>
+                <li><a href="#img_17"><img src="x"></a></li>
+                <li><a href="#img_18"><img src="x"></a></li>
+                <li><a href="#img_19"><img src="x"></a></li>
+                <li><a href="#img_20"><img src="x"></a></li>
+            </ul>
+            <!-- Pictures blown up when clicked on-->
+            <a href="#_1" class="lightbox trans" id="img_1"><img
+                    src="../floralObsessions/bouquetBuilds/1/place1.JPG"></a>
+            <a href="#_2" class="lightbox trans" id="img_2"><img
+                    src="../floralObsessions/bouquetBuilds/2/child1.JPG"></a>
+            <a href="#_3" class="lightbox trans" id="img_3"><img
+                    src="../floralObsessions/bouquetBuilds/3/family1.JPG"></a>
+            <a href="#_4" class="lightbox trans" id="img_4"><img src="../floralObsessions/bouquetBuilds/4/pet1.JPG"></a>
+            <a href="#_5" class="lightbox trans" id="img_5"><img src="../floralObsessions/bouquetBuilds/5/fun1.JPG"></a>
+            <a href="#_6" class="lightbox trans" id="img_6"><img src="x"></a>
+            <a href="#_7" class="lightbox trans" id="img_7"><img src="x"></a>
+            <a href="#_8" class="lightbox trans" id="img_8"><img src="x"></a>
+            <a href="#_9" class="lightbox trans" id="img_9"><img src="x"></a>
+            <a href="#_10" class="lightbox trans" id="img_10"><img src="x"></a>
+            <a href="#_11" class="lightbox trans" id="img_11"><img src="x"></a>
+            <a href="#_12" class="lightbox trans" id="img_12"><img src="x"></a>
+            <a href="#_13" class="lightbox trans" id="img_13"><img src="x"></a>
+            <a href="#_14" class="lightbox trans" id="img_14"><img src="x"></a>
+            <a href="#_15" class="lightbox trans" id="img_15"><img src="x"></a>
+            <a href="#_16" class="lightbox trans" id="img_16"><img src="x"></a>
+        </div>
+    </div>
+    <!--Javascript-->
+    <script src="../floralObsessions/boquetBuilds.js"></script>
 </body>
 
 </html>
