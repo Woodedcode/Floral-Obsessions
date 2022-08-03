@@ -1,33 +1,14 @@
-Extra small devices (portrait phones, less than 576px)
- @media (max-width: 575.98px) { ... } */
-
- Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
-
- Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
-
- Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
-
- Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-@media screen and (min-width: 100px) and (max-width: 900px) {
-    body {
-        
-    }
-  } 
-
-/*               LAYOUT                 */
-/*//////////////////////////////////////*/
-
-   /* Box Model Hack */
-   * {
+/* Box Model Hack */
+* {
     box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Neuton', serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; 
     margin: 0;
     padding: 0;
-    /* background-color: #F7B5C7; */
   }
   
   /* Clear fix hack */
@@ -44,7 +25,7 @@ Extra small devices (portrait phones, less than 576px)
       clear: both;
   }
 
-/*Extra small devices (portrait phones, less than 576px)
+Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 
  Small devices (landscape phones, 576px and up)
@@ -57,7 +38,7 @@ Extra small devices (portrait phones, less than 576px)
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
  Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
+@media (min-width: 1200px) { ... }
 
 /*-------------------------------layout-------------------------------*/
 /*--------------------------------------------------------------------*/
@@ -66,129 +47,154 @@ Extra small devices (portrait phones, less than 576px)
         
     }
   }
-/*--------------------------------------------------------------------*/
-
-/*--------------------------------------------------------------------*/
-/*font CAN CHANGE*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
-/*dont change*/
+div {
+    text-align: center;
+  }
+#title{
+    text-align: center;
+    background-color: #F7B5C7;
+}
+#floralDirection{
+    height: 50px;
+    width:  100%;
+    float: left;
+    /*color*/
+    background-color: #F7B5C7;
+}
 
 body{
     background-color: #F7B5C7;
-    font-family: "Roboto", sans-serif;
-    color: white;
+    font-family: "Raleway";
+    height: 100%;
 }
-
-#slider{
-    height: 500px;
-    border: 1px solid black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #be8796;
-}
-
-.container{
-    width: 1600px;
-    margin: auto;
-}
-
-.subcontainer{
-    width: 85%;
-    margin: auto;
-}
-
-.controller{
-    display: flex;
-    justify-content: space-between;
-}
-
-#controls i{
-    color: white;
-    font-size: 1rem;
-}
-
-.previous, .next{
-    padding: 2px;
-    width: 30px;
-    cursor: pointer;
-    border-radius: 50%;
-    outline: none;
-    transition: 0.7s ease-in-out;
-    border: 2px solid white;
-    background-color: black;
-    box-shadow: 0 0 5px #bbb;
-}
-
-.previous:hover, .next:hover{
-    border: 2px solid grey;
-}
-
-.slide-img{
-    width: 100%;
-    height: 200px;
-    border: 1px solid white;
-    background-position: center;
-    background-size: cover;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
-}
-
-.slide-img:hover{
-    box-shadow: 0 0 0 200px rgba(0, 0, 0, 0.4) inset;
-}
-
-.slide-img a{
+a{
+    color: #A8B26D;
     text-decoration: none;
-    transform: scale(0);
-    transition: 0.8s;
-    font-size: 1.5rem;
-    color: white;
-    opacity: 0;
+    text-align: center;
+    list-style-type: none; 
+    text-align: center;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    
 }
 
-.slide-img:hover a{
-    opacity: 1;
-    transform: scale(1);
+.container
+{
+	width: 100%;
+	height: 100%;
+}
+.trans
+{
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+.top
+{
+	display: flex;
+	width: 80vw;
+	height: 80vh;
+	margin-top: 10vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10vh;
+}
+.top ul
+{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	box-sizing: border-box;
+}
+.top ul li
+{
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 25%;
+	overflow: hidden;
 }
 
-.img-1{
-    background-image: url(../floralObsessions/boquetBuilds/1/place1.JPG);
+.top ul li::before
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	content: '';
+	color: white;
+	opacity: 0.4;
+	text-align: center;
+	box-sizing: border-box;
+	pointer-events: none;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
 }
-
-.img-2{
-    background-image: url(../floralObsessions/boquetBuilds/2/child1.JPG);
+.top ul li:hover::before
+{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.90);
 }
-
-.img-3{
-    background-image: url(../floralObsessions/boquetBuilds/3/family1.JPG);
+.top ul li img
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
-.img-4{
-    background-image: url(../floralObsessions/boquetBuilds/4/pet1.JPG);
+.lightbox
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.75);
+	z-index: 999;
+	opacity: 0;
+	pointer-events: none;
 }
-.img-5{
-    background-image: url(../floralObsessions/boquetBuilds/5/fun1.JPG);
+.lightbox img
+{
+	max-width: 90%;
+	max-height: 80%;
+	position: relative;
+	top: -100%;
+	/* Transition */
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
 }
-.img-6{
-    background-image: url(../floralObsessions/boquetBuilds/6/cocktail1.JPG);
+.lightbox:target
+{
+	outline: none;
+	top: 0;
+	opacity: 1;
+	pointer-events: auto;
+	transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	-webkit-transition: all 1.2s ease;
 }
-.img-7{
-    background-image: url(../floralObsessions/boquetBuilds/7/celebrate1.JPG);
+.lightbox:target img
+{
+	top: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
 }
-
-
-
-@media(max-width:1600px){
-    .container{
-        width: 100%;
-    }
-}
-
-/*--------------------------------------------------------------------*/
-
-/*--------------------------------------------------------------------*/
-
-
