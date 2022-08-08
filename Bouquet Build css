@@ -38,11 +38,9 @@ Extra small devices (portrait phones, less than 576px)
 /*-------------------------------layout-------------------------------*/
 /*--------------------------------------------------------------------*/
 @media screen and (min-width: 100px) and (max-width: 900px) {
- body{
-    background-color: #F7B5C7;
-    height: 100%;
-    font-family: Arial;
-}
+    body {
+        
+    }
   }
 div {
     text-align: center;
@@ -58,6 +56,13 @@ div {
     /*color*/
     background-color: #F7B5C7;
 }
+
+body{
+    background-color: #F7B5C7;
+    height: 100%;
+    font-family: Arial;
+}
+
 #floralDirection ul li{
     list-style-type: none; 
     text-align: center;
@@ -190,8 +195,5 @@ div {
 	-o-transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 }
-
-
-
 
 
