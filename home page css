@@ -1,12 +1,7 @@
 /* Box Model Hack */
 * {
     box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
-    font-family: 'Lora', serif;
-    font-family: 'Neuton', serif;
-    font-family: 'PT Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif; 
     margin: 0;
     padding: 0;
   }
@@ -25,7 +20,7 @@
       clear: both;
   }
 
-/*Extra small devices (portrait phones, less than 576px)
+Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { ... }
 
  Small devices (landscape phones, 576px and up)
@@ -38,7 +33,7 @@
 @media (min-width: 992px) and (max-width: 1199.98px) { ... }
 
  Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }*/
+@media (min-width: 1200px) { ... }
 
 /*-------------------------------layout-------------------------------*/
 /*--------------------------------------------------------------------*/
@@ -85,6 +80,18 @@ body{
 .wrapper{
     margin: 0 auto;
     width: 1000px;
+}
+nav{
+    position: fixed;
+    width:100%;
+}
+header{
+    height: 5vh;
+    
+}
+.floralLogo{
+    align-content: center;
+    float: center;
 }
 a{ 
     /*color*/
@@ -181,9 +188,14 @@ footer {
 
 }
 
+////////////////////////
+
+
+  
 /*---------------------------- DO NOT CHANGE --------------------------*/
 /*--------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------*/
 /*--------------------------------------------------------------------*/
+
 
