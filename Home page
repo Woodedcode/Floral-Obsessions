@@ -11,43 +11,49 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <img src="https://i.ibb.co/gW2qJdt/cropped-logo.jpg" alt="Floral Obsessions logo" class="center">
-        </header>
+    <header>
+        <div class=floralWrapper>
+            <nav id="floralDirection">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="X">Custom Bouqet</a>
+                    </li>
+                    <li>
+                        <a href="bouquetBuilds.html">Bouquet Builds</a>
+                    </li>
+                    <li>
+                        <a href="X">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="X">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div alt="logo">
+        <img src="https://i.ibb.co/gW2qJdt/cropped-logo.jpg" alt="Floral Obsessions logo">
     </div>
-
-
-    <nav id="floralDirection">
-        <ul>
-            <li>
-                <a href="www.x.com/home">Home</a>
-            </li>
-            <li>
-                <a href="www.x.com/custom">Custom Bouqet</a>
-            </li>
-            <li>
-                <a href="../floralObsessions/boquetBuilds.html">Bouquet Builds</a>
-            </li>
-            <li>
-                <a href="www.x.com/testiM">Testimonials</a>
-            </li>
-            <li>
-                <a href=www.x/contact>Contact</a>
-            </li>
-        </ul>
-    </nav>
     <section class="banner">
         <img class="test">
         <h1>Banner</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, enim magnam? Omnis, repudiandae. A,
+            asperiores!</p>
     </section>
     <section class="why">
         <img class="test">
         <h3>Why Floral Obsssions</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam veniam dolorem dolorum alias eligendi sunt
+            animi dicta atque maiores, repellendus quisquam laborum error incidunt ab!</p>
     </section>
     <section class="hook">
         <img class="test">
         <h3>Hook</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus delectus est impedit molestias corrupti
+            minus!</p>
     </section>
     <section class="video">
         <img class="test" src="">
@@ -57,14 +63,22 @@
     </section>
     <section class="story">
         <h3>Story</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio sunt repellat cupiditate totam. Alias ad
+            tempora nihil sunt dignissimos incidunt aliquid expedita molestiae aperiam aut!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem illo corrupti porro
+            repudiandae. Sint deserunt expedita, alias harum explicabo quis nulla doloremque at voluptatum!</p>
     </section>
     <section class="testimonials">
         <img class="test">
         <h3>Client Testimonials</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, maiores.</p>
+        <em>-Lorem, ipsum.</em>
     </section>
     <section class="events">
         <img class="test">
         <h3>Events</h3>
+        <!--slideshow of events-->
     </section>
     <section class="arrangements">
         <img class="test">
@@ -73,14 +87,12 @@
     <section class="crowns">
         <img class="test">
         <h3>Crowns</h3>
+        <!--slideshow or cornws and neon-->
     </section>
     <footer>
-        <h1></h1>
         <a href="https://www.instagram.com/cocktailobsessions/">Cocktail Obsessions</a>
     </footer>
     <script src="" href="main.js"></script>
 </body>
 
 </html>
-
-<!--CODED BY WOODEDCODE-->
