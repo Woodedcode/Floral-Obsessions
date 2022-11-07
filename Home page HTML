@@ -79,6 +79,8 @@
                     velit
                     ducimus assumenda officia libero. Ratione recusandae sed ullam.</p>
             </div>
+            <br>
+            <br>
             <div id="instagram-feed col" class="instagram-feed col">
                 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                 <div class="elfsight-app-05eeac65-b9f6-4ed2-9e3b-0e7ecfa3211d"></div>
@@ -88,18 +90,21 @@
                     <h2 class="floral-title">Floral Grams</h2>
                     <img src="./img/1.JPG" alt="floral build">
                     <img src="./img/2.jpg" alt="floral build">
-                    <img src="./img/3.jpg" alt="floral build">
+                    <img src="./img/12.jpg" alt="floral build">
                     <img src="./img/4.jpg" alt="floral build">
                     <img src="./img/5.jpg" alt="floral build">
                     <img src="./img/6.jpg" alt="floral build">
                     <img src="./img/7.jpg" alt="floral build">
-                    <img src="./img/8.jpg" alt="floral build">
                     <img src="./img/9.jpg" alt="floral build">
+                    <img src="./img/8.jpg" alt="floral build">
+                    <img src="./img/11.jpg" alt="floral build">
                     <img src="./img/10.jpg" alt="floral build">
+                    <img src="./img/3.jpg" alt="floral build">
                 </div>
             </div>
             <div>
-                <h2 class="section__title--2 section__title--dark col">Quality Designs</h2>
+                <br>
+                <h2 class="section__title--1 section__title--dark col">Quality Designs</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, voluptatum maiores
                     velit
                     ducimus assumenda officia libero. Ratione recusandae sed ullam.</p>
