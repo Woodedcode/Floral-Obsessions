@@ -36,7 +36,7 @@ p{
 }
 
 .section-p1{
-    padding: 40px 0;
+    padding: 40px 80px;
 }
 
 .section-m1{
@@ -54,6 +54,10 @@ body{
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    /* z-index: 999; */
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar{
@@ -94,6 +98,104 @@ body{
 
 /* home page */
 #hero{
-    background-image: url("../images/");
+    background-image: url("../Floral/images/hero1.JPG");
+    height: 90vh;
+    width: 100%;
+    background-position: center right;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
+#hero h4{
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+#hero h2{
+    color: #fff;
+}
+
+#hero h1{
+    color: #02b9ad;
+}
+
+#hero p{
+    color: rgb(131, 131, 131);
+}
+
+#hero button{
+    background-image: url("../Floral/images/btn.jpg");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.hero-text{
+    color: #fff
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding:25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.2); 
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#feature .fe-box h6{
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+
+#feature .fe-box:nth-child(2) h6{
+    background-color: #cdebbc;
+
+}
+
+#feature .fe-box:nth-child(3) h6{
+    background-color: #d1e8f2;
+
+}
+
+#feature .fe-box:nth-child(4) h6{
+    background-color: #cdd4f8;
+
+}
+
+#feature .fe-box:nth-child(5) h6{
+    background-color: #fFF2e5;
+
+}
+
+
+
 
