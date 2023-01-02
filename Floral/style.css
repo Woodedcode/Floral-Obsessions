@@ -1,5 +1,6 @@
+/*  FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;0,400;1,700&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap');
-
+/* RE-USEABLE */
 *{
     margin: 0;
     padding: 0;
@@ -34,6 +35,7 @@ p{
     color: #465b52;
     margin: 15px 0 20px 0;
 }
+/* SECTION 1 */
 
 .section-p1{
     padding: 40px 80px;
@@ -43,10 +45,36 @@ p{
     margin: 40px 0;
 }
 
+button.normal{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+button.white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+}
+
+
 body{
     width: 100%;
 }
-/* header start */
+/* HEADER START */
 #header{
     display: flex;
     align-items: center;
@@ -59,7 +87,7 @@ body{
     top: 0;
     left: 0;
 }
-
+/* NAVBAR */
 #navbar{
     display: flex;
     align-items: center;
@@ -96,7 +124,9 @@ body{
     left: 20px;
 }
 
-/* home page */
+
+
+/* HOMEP PAGE */
 #hero{
     background-image: url("../Floral/images/hero1.JPG");
     height: 90vh;
@@ -118,7 +148,7 @@ body{
 }
 
 #hero h1{
-    color: #02b9ad;
+    color: #088178;
 }
 
 #hero p{
@@ -126,26 +156,29 @@ body{
 }
 
 #hero button{
-    background-image: url("../Floral/images/btn.jpg");
-    background-color: transparent;
     color: #088178;
-    border: 0;
+    background-color: transparent;
+    border: 1px solid white;
     padding: 14px 80px 14px 65px;
     background-repeat: no-repeat;
     font-weight: 700;
     font-size: 15px;
 }
 
+#hero button:hover{
+    color: whitesmoke;
+    background-color: #088178;
+}
+
 .hero-text{
     color: #fff
 }
-
+/* FEATURED PRODUCTS */
 #feature{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 #feature .fe-box{
@@ -204,6 +237,13 @@ body{
     text-align: center;
 }
 
+#product1 .pro-conatiner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
 #product1 .pro{
     height: 23%;
     width: 23%;
@@ -253,7 +293,152 @@ body{
     font-weight: 700;
     color: #088178;
 }
+/* BANNER */
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../Floral/images/banner.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color: #fff;
+    font-size: 16px
+}
+
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: rgb(185, 0, 0);
+}
+
+#banner button:hover{
+    background: #088178;
+    color: #fff;
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("../Floral/images/E1.JPG");
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box2{
+    background-image: url("../Floral/images/C1.jpeg")
+}
+
+#sm-banner h4{
+    color: #d1d1d1;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sm-banner .banner-box h4{
+    color: #088178;
+    font-size: 28px;
+    font-weight: 500;
+    background-color: rgba(245, 245, 245, 0.4);
+    border-radius: 5px 5px 5px 0;
+}
 
 
+#sm-banner h2{
+    color: #088178;
+    font-size: 32px;
+    font-weight: 800;
+    background-color: rgba(245, 245, 245, 0.4);
+    border-radius: 0 5px 5px 0;
+}
+
+#sm-banner span{
+    color: #088178;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    background-color: rgba(245, 245, 245, 0.4);
+    border-radius: 0 0 5px 5px;
+}
+
+#sm-banner button{
+    color: #fff;
+    font-weight: 400;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #088178;
+    border: 1px solid #088178;
+}
+/* FOOTER */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+}
 
 
+footer .logo{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    padding: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow i{
+    padding-right: 4px;
+    cursor: pointer;
+
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #02b9ad;
+}
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
